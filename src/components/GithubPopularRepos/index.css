@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.head-1 {
+  font-weight: 600;
+  font-family: 'Lobster';
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.list-cont {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.m-head {
+  font-family: 'Lobster';
+  font-size: 25px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.f-img {
+  height: 300px;
+  width: 300px;
+}
+
+@media screen and (max-width: 600) {
+  .list-cont {
+    justify-content: start;
+  }
+}
